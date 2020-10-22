@@ -1,0 +1,4 @@
+Simple Demo using MapQuest's API
+
+To recreate this, you will need to make a "secrets.py" file and create 
+a variable "key" using your own key once you've signed up at https://developer.mapquest.com/
