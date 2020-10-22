@@ -4,10 +4,10 @@ import requests
 # res = requests.get('https://itunes.apple.com/search', params={'term': 'Jack Johnson', 'limit': 5})
 
 term="Madonna"
-res = requests.get('https://itunes.apple.com/search', params={'term': term, 'limit': 5})
+rest = requests.get('https://itunes.apple.com/search', params={'term': term, 'limit': 5})
 
 
-data = res.json()
+data = rest.json()
 
 for result in data['results']:
     print(result['trackName'])
